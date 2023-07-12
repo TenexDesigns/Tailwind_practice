@@ -11,7 +11,7 @@ Blockquotes (blockquote): Tailwind applies margin and border styles to blockquot
 
 Tables (table, tr, th, td): Tailwind applies border and padding styles to tables and table cells. When Preflight is disabled, you may need to define your own styles or use utility classes like border and p-4 to customize the appearance of tables.
 
-These are just a few examples of HTML elements that may require additional styling when Preflight is disabled. It's important to review the Tailwind CSS documentation for specific elements you plan to use in your project and ensure that you define appropriate styles or utilize utility classes to achieve the desired visual appearance.
+These are just a few examples of HTML elements that may require additional styling when Preflight is disabled. Its important to review the Tailwind CSS documentation for specific elements you plan to use in your project and ensure that you define appropriate styles or utilize utility classes to achieve the desired visual appearance.
 
 Remember that disabling Preflight gives you more control over the styles applied to HTML elements, but it also means that you need to define those styles manually or use Tailwind utility classes for consistent and predictable styling.
 
@@ -23,7 +23,7 @@ MORE EXPLANANTION
 
 Preflight removes all the default margins, font sizes, etc., for all your elements like your headings, blockquotes, lists, and so on blog.logrocket.com. This means that everything is unstyled and you start with a blank slate, which is great if you want to design from scratch. However, this might be surprising when you first encounter it docs.w3cub.com.
 
-If you disable Preflight, you are essentially disabling this base style reset. This could be useful if you're integrating Tailwind into an existing project that already has its own base styles, or if you'd like to provide your own base styles tailwindcss.com, docs.w3cub.com, blog.logrocket.com.
+If you disable Preflight, you are essentially disabling this base style reset. This could be useful if youre integrating Tailwind into an existing project that already has its own base styles, or if you'd like to provide your own base styles tailwindcss.com, docs.w3cub.com, blog.logrocket.com.
 
 You can disable Preflight by setting preflight to false in the corePlugins section of your tailwind.config.js file:
 
